@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Training Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body style="padding-top:60px;">
+
+	<!-- Put Navigation bar here -->
+	<div class="navbar navbar-fixed-top navbar-default" role="Navigation" style="background-color: #42d0ed; color: #fff">
+		<div class="container" >
+			<div class="navbar-header" >
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"/>
+					<span class="icon-bar"/>
+					<span class="icon-bar"/>
+				</button>
+				<a href="#" class="navbar-brand">Training Bootstrap</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/home/stardhtz/training/home.htm">Home</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="/home/stardhtz/training/contact.htm">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Put Content website here -->
+	<div class="container clearfix">
+		<div class="row row-offcanvas row-offcanvas-left">
+			<!-- Left Content -->
+
+			<div class="col-xs-12 col-sm-3 side pull-left sidebar-offcanvas" id="sidebar" role="navigation">
+				<div class="list-group">
+					<h1>Riku<br>Kiranatama</h1>
+					<img src="/home/stardhtz/training/messi.jpg" style="width: 110px; border-radius:150px;">
+				</div>
+			</div>
+			<!-- Right Content -->
+			<div id="main-content" class="col-xs-12 col-sm-9 main pull-right">
+				<div class="panel-body">
+					<table class="table table-hover table-striped display">
+						<tbody>
+							<tr>
+								<td>Nama </td>
+								<td>Riku Kiranatama</td>
+							</tr>
+							<tr>
+								<td>Tempat, Tanggal Lahir</td>
+								<td>7 Oktober 1989</td>
+							</tr>
+							<tr>
+								<td>Jenis Kelamin</td>
+								<td>Pria</td>
+							</tr>
+							<tr>
+								<td>Alamat Domisili</td>
+								<td>Jl. Sukarno Hatta no. 104</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-3.2.1.min.js" ></script>
+	<script src="js/bootstrap.min.js" ></script>
+	<script type="text/javascript">
+	  $(document).ready(function() {
+	    $('.carousel').carousel({
+	      interval: 2200
+	    })
+	  });
+	</script>
+</body>
+</html>
